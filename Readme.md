@@ -1,4 +1,4 @@
-# Computer Vision Lession Plan 
+# Computer Vision Lession Plan [ This is not Complete Repo]
 
 ## Basics of Computer Vision
 - Best Video: [Campusx Computer Vision Playlist[40-53]](https://youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn&si=7PxPHwRoU6Nm82dZ)
