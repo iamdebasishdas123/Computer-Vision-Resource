@@ -116,3 +116,82 @@ Demo Code: []()
 - Best Blog: [Understanding SSD MultiBox — Real-Time Object Detection In Deep Learning](https://towardsdatascience.com/understanding-ssd-multibox-real-time-object-detection-in-deep-learning-495ef744fab)
 
 - Demo Code: [SSD: Single Shot MultiBox Detector implementation in Keras](https://github.com/pierluigiferrari/ssd_keras)
+
+## Convolutional Neural Networks (CNNs) Pretrained with Models for Classification
+
+### AlexNet
+
+- Best Video: [AlexNet Explained | CNN Architecture](https://www.youtube.com/watch?v=FmpDIaiMIeA)
+- Best Blog: [Understanding AlexNet](https://www.digitalocean.com/community/tutorials/popular-deep-learning-architectures-alexnet-vgg-googlenet)[3]
+
+### VGGNet
+
+- Best Video: [VGG16 - Convolutional Network / Architecture](https://www.youtube.com/watch?v=pSExXap-GNs)
+- Best Blog: [VGG16 - Convolutional Network for Classification and Detection](https://neurohive.io/en/popular-networks/vgg16/)[3]
+
+### ResNet (Residual Networks)
+
+- Best Video: [ResNet (Deep Residual Learning) Explained](https://www.youtube.com/watch?v=GWt6Fu05voI)
+- Best Blog: [Understanding ResNet](https://towardsdatascience.com/understanding-and-visualizing-resnets-442284831be8)[3]
+
+### Inception Network (GoogLeNet)
+
+- Best Video: [Inception Network Explained](https://www.youtube.com/watch?v=C86ZXvgpejM)
+- Best Blog: [A Simple Guide to the Versions of the Inception Network](https://towardsdatascience.com/a-simple-guide-to-the-versions-of-the-inception-network-7fc52b863202)[3]
+
+## Transfer Learning
+
+- Best Video: [Transfer Learning with TensorFlow 2.0 Tutorial](https://www.youtube.com/watch?v=WJZoywOG1cs)
+- Best Blog: [A Comprehensive Hands-on Guide to Transfer Learning](https://towardsdatascience.com/a-comprehensive-hands-on-guide-to-transfer-learning-with-real-world-applications-in-deep-learning-212bf3b2f27a)[12]
+
+## Image Segmentation
+
+### Thresholding
+
+- Best Video: [Image Thresholding - OpenCV with Python for Image and Video Analysis](https://www.youtube.com/watch?v=jXzkxsT9gxM)
+- Best Blog: [Image Thresholding in OpenCV](https://docs.opencv.org/master/d7/d4d/tutorial_py_thresholding.html)
+
+### K-means Clustering
+
+- Best Video: [K Means Clustering Algorithm - Unsupervised Machine Learning](https://www.youtube.com/watch?v=4b5d3muPQmA)
+- Best Blog: [K-Means Clustering in Python: A Practical Guide](https://realpython.com/k-means-clustering-python/)
+
+### Fully Convolutional Networks (FCNs)
+
+- Best Video: [Fully Convolutional Networks for Semantic Segmentation](https://www.youtube.com/watch?v=_aPVDQjXMNU)
+- Best Blog: [Review: FCN — Fully Convolutional Network](https://towardsdatascience.com/review-fcn-semantic-segmentation-eb8c9b50d2d1)
+
+### U-Net
+
+- Best Video: [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://www.youtube.com/watch?v=azM57JuQpQI)
+- Best Blog: [Understanding U-Net Architecture](https://towardsdatascience.com/understanding-semantic-segmentation-with-unet-6be4f42d4b47)
+
+## Motion Analysis
+
+### Optical Flow
+
+- Best Video: [Optical Flow with OpenCV](https://www.youtube.com/watch?v=7A_yfQXPmXI)
+- Best Blog: [Optical Flow in OpenCV](https://docs.opencv.org/3.4/d4/dee/tutorial_optical_flow.html)
+
+### Kalman Filters
+
+- Best Video: [Understanding Kalman Filters, Part 1: Why Use Kalman Filters?](https://www.youtube.com/watch?v=mwn8xhgNpFY)
+- Best Blog: [Understanding Kalman Filters](https://www.mathworks.com/videos/series/understanding-kalman-filters.html)
+
+## Advanced Techniques
+
+### Generative Adversarial Networks (GANs)
+
+- Best Video: [Generative Adversarial Networks (GANs) in 50 lines of code](https://www.youtube.com/watch?v=OljTVUVzPpM)
+- Best Blog: [Understanding Generative Adversarial Networks (GANs)](https://towardsdatascience.com/understanding-generative-adversarial-networks-gans-cd6e4651a29)
+
+### Self-Supervised Learning
+
+- Best Video: [Self-Supervised Learning](https://www.youtube.com/watch?v=2KeUxXLJrZA)
+- Best Blog: [Self-Supervised Representation Learning](https://lilianweng.github.io/lil-log/2019/11/10/self-supervised-learning.html)
+
+### Attention Mechanisms
+
+- Best Video: [Attention Mechanism in Deep Learning](https://www.youtube.com/watch?v=W2rWgXJBZhU)
+- Best Blog: [Attention in Neural Networks](https://towardsdatascience.com/attention-and-its-different-forms-7fc3674d14dc)
+
