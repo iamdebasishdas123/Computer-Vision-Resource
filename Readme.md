@@ -181,7 +181,8 @@ Demo Code: []()
 ## Advanced Techniques
 
 ### Generative Adversarial Networks (GANs)
-
+- Best Intro Video: [GANS](https://youtu.be/TpMIssRdhco?si=Mf6MdhfZc1R9m92D)
+- Best Theoritical Video: [GANS](https://youtu.be/RAa55G-oEuk?si=TA75Hrvt0VTA9axi)
 - Best Video: [Generative Adversarial Networks (GANs) in 50 lines of code](https://www.youtube.com/watch?v=OljTVUVzPpM)
 - Best Blog: [Understanding Generative Adversarial Networks (GANs)](https://towardsdatascience.com/understanding-generative-adversarial-networks-gans-cd6e4651a29)
 
