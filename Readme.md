@@ -79,29 +79,26 @@ Demo Code: []()
 
 ### 1. Viola-Jones Detector
 
-- Best Video: [Viola-Jones Algorithm Explained](https://www.youtube.com/watch?v=uEJ71VlUmMQ)
+- Best Video: [Viola-Jones Algorithm Explained](https://youtu.be/_QZLbR67fUU?si=iJ1kOpoCmloIUR5n)
 
-- Best Blog: [Face Detection using Viola Jones Algorithm](https://towardsdatascience.com/face-detection-using-viola-jones-algorithm-24d8c1fb8d9c)
+- Best Blog: [Face Detection using Viola Jones Algorithm](https://towardsdatascience.com/viola-jones-algorithm-and-haar-cascade-classifier-ee3bfb19f7d8/)
 
 - Demo Code: [Viola-Jones Face Detection in Python](https://github.com/parulnith/Face-Detection-in-Python-using-OpenCV)
 
 ### 2. R-CNN (Region-Based Convolutional Neural Networks)
 
-#### Fast R-CNN
+- Best Video: [R-CNN](https://youtu.be/5DvljLV4S1E?si=--ykIMiWStX27IDA)
+- Best Blog: [Mediumn]()
+- Demo Code: [Github]()
+### 3. Faster R-CNN
 
-- Best Video: [Fast R-CNN (Object Detection) | The Architecture Explained](https://www.youtube.com/watch?v=DRZFRoXSe_Y)
-
-- Best Blog: [A Comprehensive Guide to Fast R-CNN](https://towardsdatascience.com/fast-r-cnn-for-object-detection-a-technical-summary-a0ff94faa022)
-
-#### Faster R-CNN
-
-- Best Video: [Faster R-CNN, Towards Real-Time Object Detection](https://www.youtube.com/watch?v=X3rI8ZQWI8I)
+- Best Video: [Faster R-CNN, Towards Real-Time Object Detection](https://youtu.be/itjQT-gFQBY?si=ZtU7zQ0RbALlhcLn)
 
 - Best Blog: [Understanding Faster R-CNN for Object Detection](https://medium.com/@smallfishbigsea/faster-r-cnn-explained-864d4fb7e3f8)
 
 - Demo Code: [Faster R-CNN Implementation in PyTorch](https://github.com/pytorch/vision/tree/main/torchvision/models/detection)
 
-### 3. YOLO (You Only Look Once)
+### 4. YOLO (You Only Look Once)
 
 - Best Video: [YOLO v3 | Explanation & Implementation](https://www.youtube.com/watch?v=Grir6TZbc1M)
 
@@ -109,7 +106,7 @@ Demo Code: []()
 
 - Demo Code: [YOLOv5 Implementation](https://github.com/ultralytics/yolov5)
 
-### 4. SSD (Single Shot Multi-Box Detector)
+### 5. SSD (Single Shot Multi-Box Detector)
 
 - Best Video: [Single Shot Detector (SSD) Explained](https://www.youtube.com/watch?v=P8e-G-Mhx4k)
 
@@ -184,7 +181,7 @@ Demo Code: []()
 - Best Intro Video: [GANS](https://youtu.be/TpMIssRdhco?si=Mf6MdhfZc1R9m92D)
 - Best Theoritical Video: [GANS](https://youtu.be/RAa55G-oEuk?si=TA75Hrvt0VTA9axi)
 - Best Video: [Generative Adversarial Networks (GANs) in 50 lines of code](https://www.youtube.com/watch?v=OljTVUVzPpM)
-- Best Blog: [Understanding Generative Adversarial Networks (GANs)](https://towardsdatascience.com/understanding-generative-adversarial-networks-gans-cd6e4651a29)
+- Best Blog: [Understanding Generative Adversarial Networks (GANs)](https://medium.com/@marcodelpra/generative-adversarial-networks-dba10e1b4424)
 
 ### Self-Supervised Learning
 
