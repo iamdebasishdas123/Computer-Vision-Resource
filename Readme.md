@@ -51,9 +51,9 @@ Demo Code: [Google Colab]()
 
 ### 1. SIFT (Scale-Invariant Feature Transform)
 
-- Best Video: [C32 | SIFT | Scale Invariant Feature Transform | Computer Vision](https://www.youtube.com/watch?v=ttD3pvM6pEI)
+- Best Video: [ SIFT Introduction | Scale Invariant Feature Transform | Computer Vision](https://www.youtube.com/watch?v=ttD3pvM6pEI)
 
-- Another Video: [SIFT](https://youtu.be/KgsHoJYJ4S8?si=SZTbd-o6fhe0Qti9)
+- Another Video: [SIFT Mathematics](https://youtube.com/playlist?list=PLlCkKK04bmVlvCs-S-2DnGf08MY2Hdd0n&si=Zrb7eK0wfGxpHKLc)
 
 - Best Blog: [Medium Blog](https://medium.com/@deepanshut041/introduction-to-sift-scale-invariant-feature-transform-65d7f3a72d40)
 
@@ -124,22 +124,23 @@ Demo Code: []()
 ### VGGNet
 
 - Best Video: [VGG16 - Convolutional Network / Architecture](https://www.youtube.com/watch?v=pSExXap-GNs)
-- Best Blog: [VGG16 - Convolutional Network for Classification and Detection](https://neurohive.io/en/popular-networks/vgg16/)[3]
+- Best Blog: [VGG16 - Convolutional Network for Classification and Detection](https://neurohive.io/en/popular-networks/vgg16/)
 
 ### ResNet (Residual Networks)
 
 - Best Video: [ResNet (Deep Residual Learning) Explained](https://www.youtube.com/watch?v=GWt6Fu05voI)
-- Best Blog: [Understanding ResNet](https://towardsdatascience.com/understanding-and-visualizing-resnets-442284831be8)[3]
+- Best Blog: [Understanding ResNet](https://towardsdatascience.com/understanding-and-visualizing-resnets-442284831be8)
 
 ### Inception Network (GoogLeNet)
 
 - Best Video: [Inception Network Explained](https://www.youtube.com/watch?v=C86ZXvgpejM)
-- Best Blog: [A Simple Guide to the Versions of the Inception Network](https://towardsdatascience.com/a-simple-guide-to-the-versions-of-the-inception-network-7fc52b863202)[3]
+- Best Blog: [A Simple Guide to the Versions of the Inception Network](https://towardsdatascience.com/a-simple-guide-to-the-versions-of-the-inception-network-7fc52b863202)
 
 ## Transfer Learning
 
-- Best Video: [Transfer Learning with TensorFlow 2.0 Tutorial](https://www.youtube.com/watch?v=WJZoywOG1cs)
-- Best Blog: [A Comprehensive Hands-on Guide to Transfer Learning](https://towardsdatascience.com/a-comprehensive-hands-on-guide-to-transfer-learning-with-real-world-applications-in-deep-learning-212bf3b2f27a)[12]
+- Best Video: [Transfer Learning with TensorFlow Keras ](https://youtu.be/WWcgHjuKVqA?si=cQY_idQaNO6YVEIt)
+- Another Video: [Transfer Learning with PyTorch](https://youtu.be/aPu6a5htRXM?si=re5LHQk4PiiNz_sG)
+- Best Blog: [A Comprehensive Hands-on Guide to Transfer Learning](https://towardsdatascience.com/a-comprehensive-hands-on-guide-to-transfer-learning-with-real-world-applications-in-deep-learning-212bf3b2f27a)
 
 ## Image Segmentation
 
