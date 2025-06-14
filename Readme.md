@@ -1,4 +1,4 @@
-# Computer Vision Lession Plan [ This is not Complete Repo]
+# Computer Vision Lession Plan
 
 ## Basics of Computer Vision
 - Best Video: [Campusx Computer Vision Playlist[40-53]](https://youtube.com/playlist?list=PLKnIA16_RmvYuZauWaPlRTC54KxSNLtNn&si=7PxPHwRoU6Nm82dZ)
@@ -193,4 +193,38 @@ Demo Code: []()
 
 - Best Video: [Attention Mechanism in Deep Learning](https://www.youtube.com/watch?v=W2rWgXJBZhU)
 - Best Blog: [Attention in Neural Networks](https://towardsdatascience.com/attention-and-its-different-forms-7fc3674d14dc)
+
+
+## Evaluation Metrics in Machine Learning
+
+### Intersection Over Union (IOU)
+
+- Best Video: [Attention Mechanism in Deep Learning](https://www.youtube.com/watch?v=W2rWgXJBZhU)
+- Best Blog: [Attention in Neural Networks](https://towardsdatascience.com/attention-and-its-different-forms-7fc3674d14dc)
+
+### Mean Avarage Precision(map)
+
+- Best Video: [Attention Mechanism in Deep Learning](https://www.youtube.com/watch?v=W2rWgXJBZhU)
+- Best Blog: [Attention in Neural Networks](https://towardsdatascience.com/attention-and-its-different-forms-7fc3674d14dc)
+
+
+### Mean Intersection over Union (mIoU)
+
+
+- Best Video: [Attention Mechanism in Deep Learning](https://www.youtube.com/watch?v=W2rWgXJBZhU)
+- Best Blog: [Attention in Neural Networks](https://towardsdatascience.com/attention-and-its-different-forms-7fc3674d14dc)
+
+
+### Pixcel Accuracy 
+
+
+- Best Video: [Attention Mechanism in Deep Learning](https://www.youtube.com/watch?v=W2rWgXJBZhU)
+- Best Blog: [Attention in Neural Networks](https://towardsdatascience.com/attention-and-its-different-forms-7fc3674d14dc)
+
+
+### Dice Cofficient 
+
+- Best Video: [Attention Mechanism in Deep Learning](https://www.youtube.com/watch?v=W2rWgXJBZhU)
+- Best Blog: [Attention in Neural Networks](https://towardsdatascience.com/attention-and-its-different-forms-7fc3674d14dc)
+
 
