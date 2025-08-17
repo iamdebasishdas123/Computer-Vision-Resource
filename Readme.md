@@ -44,7 +44,7 @@ The Sobel Operator is an edge detection technique used in image processing and c
 - The result is two gradient images (Gx and Gy), representing the rate of change in intensity along the x (horizontal) and y (vertical) axes.
 - The overall edge strength (gradient magnitude) at each pixel is usually calculated as:  
   \[
-  \text{Gradient Magnitude} = \sqrt{Gx^2 + Gy^2}
+  Gradient Magnitude = sqrt [Gx^2 + Gy^2]
   \]
 - The direction (angle) of the edge can also be found using the arctangent of Gy/Gx.
 - Strong values correspond to edges; low values correspond to flat regions.
