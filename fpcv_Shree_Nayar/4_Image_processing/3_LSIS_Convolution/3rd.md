@@ -16,6 +16,8 @@ The study of linear shift-invariant systems is important because it leads to man
 
 ## Linearity
 
+![Linearity](../artifacts/Linearity.png)
+
 As the name implies, the first property of the system is linearity.
 
 Suppose an input $f_1$ produces an output $g_1$, and an input $f_2$ produces an output $g_2$:
@@ -36,6 +38,8 @@ If this condition is satisfied, the system is linear.
 
 Suppose the input function is $f(x)$ and the output is $g(x)$.
 
+![Shift Invariance](../artifacts/Shift_Invariance.png)
+
 If the input is shifted by $a$, then the output should also be shifted by $a$:
 
 $$
@@ -52,8 +56,7 @@ Any system that satisfies both linearity and shift invariance is a **linear shif
 
 ## An Ideal Lens Is an LSIS
 
-> **Image placeholder: Ideal lens as a linear shift-invariant system**  
-> Suggested visual: a lens forming a focused image $f$ on one plane and a defocused image $g$ when the image plane is moved.
+![Ideal Lens](../artifacts/Idea_of_LSIS.png)
 
 Linear shift-invariant systems are relevant to computer vision and imaging because an ideal lens system can be described this way.
 
@@ -90,6 +93,10 @@ This is the definition of convolution.
 
 ### Visual Interpretation of Convolution
 
+| | | | | |
+|--|--|--|--|--|
+|![Conv1](../artifacts/Conv1.png) | ![Conv2](../artifacts/Conv2.png) | ![Conv3](../artifacts/Conv3.png) | ![Conv4](../artifacts/Conv4.png) |![Conv5](../artifacts/Conv5.png) |
+
 To understand what happens in the convolution:
 
 1. Express the functions using the variable $\tau$: $f(\tau)$ and $h(\tau)$.
@@ -101,8 +108,6 @@ To understand what happens in the convolution:
 
 The result is a single number. That number is the value of the convolution at $x$, namely $g(x)$.
 
-> **Image placeholder: Flip, shift, multiply, and integrate**  
-> Suggested visual: $h(\tau)$ flipped to $h(-\tau)$, shifted to $h(x-\tau)$, overlaid on $f(\tau)$, and integrated.
 
 To find the entire function $g(x)$, take $h$, flip it, move it to $-\infty$, and slide it from left to right through $f$. At every position, calculate the product and integral. The sequence of results forms $g(x)$.
 
@@ -114,6 +119,8 @@ Therefore:
 ## Convolution Examples
 
 ### Rectangle Convolved with a Rectangle
+
+![Convolution](../artifacts/conv_ex1.png)
 
 Consider a blue rectangular function and a red rectangular function. In this simple example, the rectangles are identical.
 
@@ -129,10 +136,9 @@ As one rectangle slides over the other, the area of the overlapping region incre
 - The area at complete overlap is 2 because the rectangle has width 2 and height 1.
 - As the rectangle slides out, the same symmetric triangular function is produced.
 
-> **Image placeholder: Rectangle-rectangle convolution**  
-> Suggested visual: two identical rectangles sliding across each other and the resulting triangular convolution.
-
 ### Rectangle Convolved with a Triangle
+
+![Convolved Triangle](../artifacts/conv_ex2.png)
 
 Now consider a rectangle convolved with a triangular function.
 
@@ -142,10 +148,9 @@ The overlap region is itself a triangle. Both its base and height increase linea
 
 These examples show how convolution can be visualized. For more complicated functions, it may not be possible to guess the result, as with most mathematical problems.
 
-> **Image placeholder: Rectangle-triangle convolution**  
-> Suggested visual: a triangular function sliding over a rectangle and the resulting quadratic-shaped convolution.
-
 ## Online Convolution Demo
+
+![Onlilne Demo](../artifacts/Conv_demo.png)
 
 There are online demonstrations that allow you to play with functions, create new functions, and see what happens when two functions are convolved. One such demo is from Johns Hopkins and can be tried online.
 
@@ -154,6 +159,8 @@ There are online demonstrations that allow you to play with functions, create ne
 Convolution implies linear shift invariance. To show this, we need to show that performing a convolution produces a function satisfying linearity and shift invariance.
 
 ### Convolution Is Linear
+
+![ConV Linear](../artifacts/conv_linearity.png)
 
 Suppose:
 
@@ -178,6 +185,8 @@ $$
 This is the linearity condition, so convolution is linear.
 
 ### Convolution Is Shift-Invariant
+
+![ConV SI](../artifacts/Conv_SI.png)
 
 Start again with the definition:
 
@@ -210,11 +219,15 @@ Since convolution is both linear and shift-invariant, convolution is a linear sh
 
 ## Finding the Unknown System: The Unit Impulse Function
 
+![Find Unit](../artifacts/Find_h.png)
+
 Suppose we are given a linear shift-invariant system as a black box. We know that it performs a convolution with some unknown function $h$, but we cannot open the system to inspect it. We want to find $h$.
 
 The question is: can we apply an input so that the output is $h$? The answer is the **unit impulse function**.
 
 ### Definition of the Unit Impulse
+
+![ConV SI](../artifacts/unit_impulse.png)
 
 The unit impulse function is the same concept as the delta function discussed in a previous lecture. It is infinitesimally thin and infinitely tall.
 
@@ -227,8 +240,6 @@ For a finite approximation:
 
 Thus, the impulse is very thin and very tall, with area equal to 1.
 
-> **Image placeholder: Unit impulse function**  
-> Suggested visual: a narrow pulse with width $2\epsilon$, height $1/(2\epsilon)$, and area 1 as $\epsilon$ tends to 0.
 
 ### Sifting Property
 
@@ -244,6 +255,8 @@ This is called the **sifting property** of the unit impulse function.
 
 ### Impulse Response
 
+![Impulse Response](../artifacts/Impulse_response.png)
+
 If a black-box system is linear and shift-invariant, it applies a convolution with an unknown function $h$. Apply the unit impulse as the input:
 
 $$
@@ -256,8 +269,7 @@ To characterize any linear shift-invariant system, hit it with a unit impulse fu
 
 ## Impulse Response of the Human Eye
 
-> **Image placeholder: Human-eye point spread function**  
-> Suggested visual: a distant star, the eye lens and retina, and the narrow response measured on the retina.
+![Human Eye](../artifacts/Human.png)
 
 Consider the human eye as an imaging system. The eye has a lens that forms an image on the retina. We want to know the relationship between a perfect focused image in the scene and the image that lands on the retina.
 
@@ -280,6 +292,8 @@ For the human eye, the measured PSF is a very narrow function. Since the retina 
 The response has already fallen off considerably by approximately $0.05$ degrees. This helps explain why the images we see are fairly sharp. As the PSF becomes wider, the images appear blurrier and blurrier.
 
 ## Properties of Convolution
+
+![Properties of Convolution](../artifacts/Conv_Properties.png)
 
 ### Commutative Property
 
@@ -311,10 +325,10 @@ $$
 
 Because convolution is commutative, the combined filter may also be written as $h_2*h_1$.
 
-> **Image placeholder: Cascaded convolution systems**  
-> Suggested visual: input -> convolution with $h_1$ -> convolution with $h_2$ -> output, alongside the equivalent single convolution with $h_1*h_2$.
 
 ## Two-Dimensional Convolution
+
+![Two-Dimensional Convolution](../artifacts/Conv_SI.png)
 
 The concept of convolution was first described using one-dimensional signals. Images are two-dimensional, so the input is a two-dimensional function $f(x,y)$, and the impulse response is also a two-dimensional function.
 
@@ -326,6 +340,3 @@ f(\tau,\mu)h(x-\tau,y-\mu)\,d\tau\,d\mu
 $$
 
 The definition extends easily to higher dimensions. For example, medical imaging may involve volumetric data such as ultrasound images. Operations can be applied to three-dimensional data, and convolution can be extended to three or more dimensions.
-
-> **Image placeholder: Two-dimensional convolution**  
-> Suggested visual: a 2D image, a 2D kernel, the kernel sliding across the image, and the resulting output image.

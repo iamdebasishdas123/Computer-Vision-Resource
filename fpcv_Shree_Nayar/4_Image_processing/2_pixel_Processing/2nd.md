@@ -5,7 +5,7 @@
 An image can be defined as a function. The spatial coordinates are $x$ and $y$. At any given $(x,y)$, there is an intensity value $f$.
 
 Therefore, $f(x,y)$ is the image expressed as a function.
-
+![Image Funcation](../artifacts/image_function.png)
 > **Image placeholder: Image as a function**  
 > Suggested visual: an image coordinate plane with a point $(x,y)$ and its corresponding intensity value $f(x,y)$.
 
@@ -23,6 +23,10 @@ $$
 
 The simplest type of processing applied to an image is called **pixel processing** or **point processing**.
 
+| | |
+|--|--|
+|![Point Processing](../artifacts/point_processing.png) | ![Pixel Processing](../artifacts/pixel_processing.png) |
+
 For each pixel:
 
 1. Look at its brightness value.
@@ -36,9 +40,6 @@ It is the simplest type of operation because, at every pixel, the operation is i
 ## Examples of Point Processing
 
 Consider a color image with three channels.
-
-> **Image placeholder: Point-processing examples**  
-> Suggested visual: the original color image followed by darkened, lightened, inverted, lower-contrast, higher-contrast, and grayscale versions.
 
 ### Darkening an Image
 
