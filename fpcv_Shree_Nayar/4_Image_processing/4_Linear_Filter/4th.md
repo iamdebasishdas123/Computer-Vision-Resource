@@ -348,6 +348,10 @@ A larger mask captures more of the Gaussian's energy and provides a better appro
 
 Consider an image $f[i,j]$ convolved with Gaussian filters of different standard deviations.
 
+| | | |
+|--|--|--|
+|![GMS1](../artifacts/gaussian_filter_smoothing.png) | ![GMS1](../artifacts/gfs-2.png) | ![GMS1](../artifacts/gfs-2.png) |
+
 For a small value such as:
 
 $$

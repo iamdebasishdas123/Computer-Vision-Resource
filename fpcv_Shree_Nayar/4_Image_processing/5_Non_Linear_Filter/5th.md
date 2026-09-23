@@ -5,7 +5,7 @@ We have seen how convolution and linear filters can be used to smooth images and
 However, many problems cannot be solved effectively using linear filters. In such cases, we need nonlinear filters that cannot be implemented as convolutions.
 
 ---
-
+ 
 ## 1. Smoothing to Remove Image Noise
 
 ![Image with Salt-and-Pepper Noise](../artifacts/salt-and-pepper-noise.png)
@@ -23,7 +23,7 @@ The goal is to remove this noise while preserving the important information in t
 
 ## 2. Why Gaussian Smoothing Is Not Enough
 
-![Gaussian Smoothing of Salt-and-Pepper Noise](../artifacts/gaussian-smoothing-noise.png)
+![Gaussian Smoothing of Salt-and-Pepper Noise](../artifacts/salt-and-pepper-noise.png)
 
 If a Gaussian filter is applied to an image with salt-and-pepper noise, the noise is reduced slightly.
 
@@ -86,7 +86,7 @@ The median-filtered output is therefore 11.
 
 ## 4. Median Filtering and Salt-and-Pepper Noise
 
-![Median Filter Result](../artifacts/median-filter-result.png)
+![Median Filter Result](../artifacts/median-filtering.png)
 
 A small median filter, such as a $3 \times 3$ filter, can remove most salt-and-pepper noise.
 
@@ -104,7 +104,9 @@ Therefore, median filtering is a nonlinear filter.
 
 ## 5. Limitations of Median Filtering
 
-![Median Filter with Different Sizes](../artifacts/median-filter-sizes.png)
+| | |
+|--|--|
+|![Median Filter with Different Sizes](../artifacts/median-filter-sizes1.png) | ![Median Filter](../artifacts/median-filter-sizes2.png) |
 
 Median filtering is not a magical solution.
 
@@ -368,8 +370,9 @@ Details around the eyes and mouth, for example, remain clearer than they would w
 ---
 
 ## 13. Effect of the Spatial Standard Deviation
-
-![Bilateral Spatial Sigma](../artifacts/bilateral-spatial-sigma.png)
+| | |
+|--|--|
+|![Bilateral Spatial Sigma1](../artifacts/bilateral-spatial-sigma.png) | ![Bilateral Spatial Sigma2](../artifacts/bilateral-spatial-sigma1.png) |
 
 Increasing $\sigma_s$ increases the spatial range of the filter.
 
