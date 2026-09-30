@@ -95,7 +95,7 @@ This is the definition of convolution.
 
 | | | | | |
 |--|--|--|--|--|
-|![Conv1](../artifacts/Conv1.png) | ![Conv2](../artifacts/Conv2.png) | ![Conv3](../artifacts/Conv3.png) | ![Conv4](../artifacts/Conv4.png) |![Conv5](../artifacts/Conv5.png) |
+|![Conv1](../artifacts/Conv1.png) | ![Conv2](../artifacts/conv2.png) | ![Conv3](../artifacts/conv3.png) | ![Conv4](../artifacts/conv4.png) |![Conv5](../artifacts/conv5.png) |
 
 To understand what happens in the convolution:
 
