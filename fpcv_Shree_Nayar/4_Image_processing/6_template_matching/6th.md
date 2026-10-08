@@ -6,7 +6,7 @@ The template may represent an object, a pattern, or a small image region. The go
 
 ---
 
-## 1. The Template-Matching Problem
+## 1. The Template-Matching Problem 
 
 ![Template Matching](../artifacts/template-matching.png)
 
@@ -71,6 +71,8 @@ This product-and-sum operation is called **cross-correlation**.
 
 ## 4. Cross-Correlation
 
+![Cross-Correlation Illustration](../artifacts/cross-correlation.png)
+
 The cross-correlation between an image $f$ and a template $t$ is:
 
 $$
@@ -94,7 +96,7 @@ $$
 Cross-correlation is:
 
 $$
-R_{tf}[i,j]=\sum_m\sum_n t[m,n]f[i+m,j+n]
+R_{tf}[i,j]=\sum_m\sum_n t[m,n]f[m-i,n-j]
 $$
 
 The important difference is that convolution flips the filter, while correlation does not.
@@ -162,7 +164,7 @@ The numerator measures pattern similarity, while the denominator compensates for
 
 ## 9. Example of Normalized Matching
 
-![Normalized Matching Example](../artifacts/normalized-matching-example.png)
+![Normalized Matching Example](../artifacts/normalized-cross-correlation.png)
 
 For candidate locations $A$, $B$, and $C$, normalized correlation gives the desired ordering:
 
@@ -176,7 +178,7 @@ The response is determined primarily by how closely the shapes match, rather tha
 
 ## 10. Template Matching in a Real Image
 
-![Template Matching Result](../artifacts/template-matching-result.png)
+![Template Matching Result](../artifacts/template_results.png)
 
 Evaluating the template at every possible location produces a **correlation map** or **response map**. Each point records the similarity between the template and the corresponding image region.
 
