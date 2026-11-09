@@ -12,6 +12,8 @@ Consider a one-dimensional signal $f(x)$ containing a rising edge and a falling 
 
 In regions where the signal is constant, its derivative is zero. Near an edge, the intensity changes rapidly, so the derivative has a large magnitude.
 
+![One-Dimensional Signal and Its Derivative](artifacts/gradient-1d-grad.png)
+
 * A rising edge produces a positive derivative peak.
 * A falling edge produces a negative derivative peak.
 
@@ -38,6 +40,8 @@ f_y
 \end{bmatrix}
 $$
 
+![Two-Dimensional Image Gradient](artifacts/gradient-2d-grad.png)
+
 The components describe intensity change along the horizontal and vertical image axes.
 
 Examples:
@@ -55,6 +59,8 @@ The gradient gives two useful quantities at each pixel.
 ### Gradient magnitude
 
 The gradient magnitude measures the strength of the intensity change:
+
+![Two-Dimensional Magnitude and Orientation](artifacts/2d-mag-ori.png)
 
 $$
 M(x,y)=\|\nabla f(x,y)\|
@@ -118,8 +124,8 @@ Finite differences can be implemented as convolution with small masks. For a two
 $$
 K_x=\frac{1}{2\epsilon}
 \begin{bmatrix}
-1 & -1\\
-1 & -1
+-1 & 1\\
+-1 & 1
 \end{bmatrix}
 \qquad
 K_y=\frac{1}{2\epsilon}
@@ -184,8 +190,6 @@ This magnitude image highlights locations where intensity changes strongly. Howe
 
 ## 8. Thresholding the Gradient Magnitude
 
-![Gradient Thresholding](artifacts/gradient-thresholding.png)
-
 ### Single-threshold method
 
 Choose a threshold $T$ and classify pixels as:
@@ -202,6 +206,8 @@ A larger threshold keeps only stronger edges. A smaller threshold detects weaker
 
 ### Hysteresis thresholding
 
+![Hysteresis Thresholding](artifacts/hysteresis-thresholding.png)
+
 Hysteresis uses two thresholds, a low threshold $T_0$ and a high threshold $T_1$, with $T_0<T_1$:
 
 * If $M<T_0$, classify the pixel as not an edge.
@@ -214,7 +220,6 @@ This uses neighborhood context to retain weak edge responses that continue a str
 
 ## 9. From an Edge Map to Object Boundaries
 
-![Thresholded Edge Map](artifacts/gradient-edge-map.png)
 
 Thresholding a gradient magnitude produces an edge map: a set of edge pixels. These pixels may be scattered, broken, or disconnected.
 

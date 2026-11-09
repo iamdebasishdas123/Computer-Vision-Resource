@@ -79,11 +79,15 @@ $$
 
 The corner values are zero because this approximation uses only the horizontal and vertical neighbors of the center pixel.
 
+or You can Remember like:
+
+ ![Laplacian Formula](artifacts/laplacian-finite.png)
+
 ---
 
 ## 4. Including Diagonal Neighbors
 
-![Laplacian Masks](artifacts/laplacian-masks.png)
+
 
 The four-neighbor mask treats horizontal and vertical neighbors directly, but not diagonal neighbors. On a square pixel grid, the diagonal spacing is different from the horizontal and vertical spacing. A wider discrete approximation can include the diagonal pixels as well.
 
@@ -106,7 +110,7 @@ This mask is commonly used as a discrete Laplacian operator. Its response can be
 
 ## 5. Interpreting the Laplacian Response
 
-![Laplacian Response and Edge Map](artifacts/laplacian-edge-map.png)
+![Laplacian Masks](artifacts/laplacian-masks.png)
 
 The Laplacian response can contain both positive and negative values. A display system that shows only nonnegative image intensities cannot represent these values directly.
 
@@ -155,6 +159,8 @@ This is a trade-off between noise suppression and edge localization.
 
 ## 8. Derivative of Gaussian
 
+![Derivative of Gaussian](artifacts/derivative-of-gaussian.png)
+
 Because Gaussian smoothing and differentiation are linear operations, they can be combined into a single convolution.
 
 For gradient-based detection:
@@ -178,6 +184,8 @@ The derivative-of-Gaussian filters suppress some noise while measuring intensity
 ---
 
 ## 9. Laplacian of Gaussian
+
+![Laplacian of Gaussian](artifacts/laplacian-of-gaussian.png)
 
 The same idea applies to the Laplacian. Smooth the image with a Gaussian, then apply the Laplacian:
 

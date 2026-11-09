@@ -129,7 +129,11 @@ The visual system does not always perceive geometric edges and lines exactly as 
 
 ### 7.1 Hering Illusion
 
-![Hering Illusion](artifacts/hering-illusion.png)
+
+| **Illusion** | **Truth** |
+| :---: | :---: |
+| ![Hering Illusion 1](artifacts/hering-illusion1.png) | ![Hering Illusion 2](artifacts/hering-illusion2.png) |
+
 
 In the Hering illusion, two horizontal lines appear to bulge outward and seem non-parallel when surrounded by radiating lines. When the surrounding lines are removed, the horizontal lines are revealed to be straight and parallel.
 
@@ -137,7 +141,9 @@ One explanation is that the acute angles in the pattern bias perception, making 
 
 ### 7.2 Cafe Wall Illusion
 
-![Cafe Wall Illusion](artifacts/cafe-wall-illusion.png)
+| **Illusion** | **Truth** |
+| :---: | :---: |
+| ![Cafe Wall Illusion](artifacts/cafe-wall-illusion1.png) | ![Cafe Wall Illusion](artifacts/cafe-wall-illusion2.png) |
 
 In the Cafe Wall illusion, rows of black and white tiles make the horizontal mortar lines appear tilted relative to one another. When the tiles are removed, the lines are seen to be parallel.
 
